@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Taste & Tell Restaurant</title>
+        <style>
+            body {
+              margin: 0;
+              font-family: Arial, sans-serif;
+              background-image: url('https://images.unsplash.com/photo-1600891964599-f61ba0e24092');
+              background-size: cover;
+              background-position: center;
+              color: #fff;
+            }
+        
+            header {
+              background: rgba(0, 0, 0, 0.6);
+              padding: 20px;
+              text-align: center;
+            }
+        
+            header h1 {
+              margin: 0;
+              font-size: 3rem;
+            }
+        
+            nav {
+              margin: 20px 0;
+            }
+        
+            nav a {
+              display: inline-block;
+              margin: 5px;
+              padding: 10px 20px;
+              font-size: 1rem;
+              text-decoration: none;
+              border-radius: 5px;
+              background-color: #ff6347;
+              color: white;
+              transition: background-color 0.3s;
+            }
+        
+            nav a:hover {
+              background-color: #e5533d;
+            }
+        
+            section {
+              background: rgba(0, 0, 0, 0.6);
+              margin: 20px auto;
+              padding: 20px;
+              width: 80%;
+              border-radius: 10px;
+            }
+          </style>
+    </head>
+    <body>
+        <header>
+            <h1>Taste & Tell Restaurant</h1>
+            <h2>Best Quality and Tasty Food Point</h2>
+            <nav>
+              <a href="#home">Home</a>
+              <a href="menu.html">Menu</a>
+              <a href="chef.html">Chef</a>
+              <a href="#about">About</a>
+              <a href="#contact">Contact</a>
+            </nav>
+            <div id="phone">
+                <a href="tel:+12121132354">+12121132354</a>
+            </div>
+          </header>
+
+          <section id="home">
+            <h2>Home</h2>
+            <p>Welcome to Delicious Bites, where taste meets tradition. Enjoy gourmet dishes, crafted with love and served with passion. Now offering fast and reliable home delivery service!</p>
+          </section>
+        
+          <section id="about">
+            <h2>About Us</h2>
+            <p>Delicious Bites has been serving the community since 2010, known for exceptional cuisine and friendly service. Our commitment to quality and taste has made us a local favorite.</p>
+            <div id="about">
+                <h1 id="section">About</h1>
+                <div id="about_row">
+                    <div class="about_col">
+                        <p>
+                            1. <b>Warm & Welcoming (Family-Style Restaurant)</b><br>
+                            At Taste & Tell Restaurant, we serve more than just food — we serve comfort, tradition, and a sense of home. Every dish is crafted with love and inspired by generations of family recipes.<br>
+                            
+                            2. <b>Trendy & Modern</b><br>
+                            Where passion meets the plate. Taste & Tell Restaurant blends fresh ingredients with bold flavors to create a modern dining experience you won’t forget.<br>
+                            
+                            3. <b>Fine Dining</b><br>
+                            At Taste & Tell Restaurant, dining is an art. Our chefs curate each dish with precision, creativity, and a dedication to excellence that turns every meal into a celebration.<br>
+                            
+                            4. <b>Locally Focused</b><br>
+                            Rooted in the community, Taste & Tall Restaurant proudly sources local ingredients to create seasonal menus that celebrate our region’s best flavors.<br>
+                            
+                            5. <b>Fusion Cuisine</b><br>
+                            Tradition meets innovation at Taste & Tall Restaurant. We reimagine classic dishes with global flair, delivering bold, exciting flavors in every bite.<br>
+                        </p>
+                    </div>
+                    <div class="about_col">
+                        <div id="about_img">
+                            <img src="C:\Users\HP\Desktop\Project\images\images\about.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <style>
+                #about{
+                    padding: 25px 0 25px 0;
+                }
+                #about_row{
+                    display: flex;
+                    justify-content: center;
+                    align-item: center;
+                    flex-wrap: wrap;
+                    padding: 0 100px 0 100px;
+                }
+                .about_col{
+                    flex: 1;
+                }
+                #about_img{
+                    width: 300px;
+                    height: 300px;
+                    border-radius: 50%;
+                    margin: auto;
+                }
+                #about_img img{
+                    width: 100%;
+                    height: 100%;
+                    border-radius: 50%;
+                    object-fit: fill;
+                }
+                .about_col h1{
+                    font-family: cursive;
+                }
+                .about_col p{
+                    text-align: justify;
+                    font-weignt: bold;
+                }
+            </style>
+          </section>
+        
+          <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Email: contact@deliciousbites.com<br />
+               Phone: (123) 456-7890<br />
+               Location: 123 Foodie Lane, Flavor Towe
+            </p>
+               <div class="contact_col"> 
+                <form>
+                    <h2>Get your table book</h2>
+                    <input type="text" placeholder="Name">
+                    <input type="email" placeholder="Email">
+                    <input type="Subject" placeholder="Subject">
+                    <textarea rows="6" placeholder="Type Message">
+                    </textarea>  
+                    <button>Send Message</button>
+                </form>
+                </div>
+                <style>
+                    contact{
+                        padding: 25px 0 25px 0;
+                    }
+                    #contact_row{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        padding: 0 100px 0 100px;
+                        flex-wrap: wrap;
+                    }
+                    .contact_col{
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        flex: 1;
+                    }
+                    .contact_col p,h3{
+                        font-weight: bold;
+                        color: black;
+                        margin: 10px;
+                    }
+                    .contact_col p a{
+                        text-decoration: none;
+                        color: black;
+                    }
+                    .contact_col form{
+                        display: flex;
+                        flex-direction: column;
+                        background-color: magenta;
+                        width: 70%;
+                        padding: 20px 40px 20px 20px;
+                    }
+                    .contact_col form h2{
+                        text-align: center;
+                        font-family: cursive;
+                    }
+                    .contact_col form input{
+                        width: 100%;
+                        height: 17pt;
+                        padding:5px;
+                    }
+                    .contact_col form textarea{
+                        width: 100%;
+                        padding: 5px;
+                        margin: 5px;
+                    }
+                    .contact_col form button{
+                        margin: auto;
+                        padding: 10px;
+                        color: white;
+                        background-color: orange;
+                        border: 1px solid orange;
+                    }
+                </style>
+            <h3>Home Delivery Service</h3>
+            <p>Order your favorite dishes from the comfort of your home! We deliver within a 10-mile radius. Call or use our online platform to place your order now.</p>
+          </section>
+
+          <div id="footer">
+            <div>
+                <h5>Copyright &copy;2025 | <a href="">TasteWebPage</a>
+                </h5>
+            </div>
+        <style>
+            #footer{
+                background-color: black;
+                padding: 20px;
+                position: relative;
+            }
+            #footer h5{
+                text-align: center;
+                color: orange;
+            }
+            #footer h5 a{
+                color: white;
+                text-decoration: none;
+            }
+        </style>
+        </div>
+    </body>
+</html>
+        
+        
+
+
+
+
+        
+        
+
+
+
+        
+
+
+        
+
+
+
+        
+
+
+
+
+
+
+
